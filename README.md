@@ -1,2 +1,1 @@
-# ploomber-example
-Basic ploomber example
+# Ploomber Example
