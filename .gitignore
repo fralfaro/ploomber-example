@@ -73,3 +73,5 @@ target/
 *-checkpoint.ipynb
 /report.xml
 _others_
+output
+/embedded-assets/
