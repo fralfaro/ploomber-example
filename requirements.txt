@@ -1,0 +1,11 @@
+pandas
+scikit-learn
+joblib
+plotly
+ploomber
+streamlit
+pre-commit
+black
+ruff
+pytest
+mkdocs-material
