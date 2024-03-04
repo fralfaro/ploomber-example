@@ -8,4 +8,5 @@ pre-commit
 black
 ruff
 pytest
+pytest-mock
 mkdocs-material
