@@ -1,4 +1,4 @@
-# Description 
+# Description
 
 <img src="https://www.maritimecyprus.com/wp-content/uploads/2015/10/titanic-infographic-696x431.jpg" width="650" >
 
@@ -48,22 +48,22 @@ We also include **gender\_submission.csv**, a set of predictions that assume all
 
 ### Variable Notes
 
-**pclass**: A proxy for socio-economic status (SES)  
+**pclass**: A proxy for socio-economic status (SES)
 
-* 1st = Upper  
-* 2nd = Middle  
-* 3rd = Lower  
-  
-**age**: Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5  
-  
-**sibsp**: The dataset defines family relations in this way... 
+* 1st = Upper
+* 2nd = Middle
+* 3rd = Lower
 
-* Sibling = brother, sister, stepbrother, stepsister  
-* Spouse = husband, wife (mistresses and fiancés were ignored)  
-  
-**parch**: The dataset defines family relations in this way...  
-* Parent = mother, father  
-* Child = daughter, son, stepdaughter, stepson  
+**age**: Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5
+
+**sibsp**: The dataset defines family relations in this way...
+
+* Sibling = brother, sister, stepbrother, stepsister
+* Spouse = husband, wife (mistresses and fiancés were ignored)
+
+**parch**: The dataset defines family relations in this way...
+* Parent = mother, father
+* Child = daughter, son, stepdaughter, stepson
 * Some children travelled only with a nanny, therefore parch=0 for them.
 
 > 🔑 **Note**: For more details about the project, please see the [Kaggle documentation](https://www.kaggle.com/c/titanic/overview) on the Titanic challenge.

@@ -262,7 +262,7 @@ def cs_body():
     @st.cache_data()
     def load_metrics_data():
         data = pd.read_csv(
-            "data/metrics.csv"
+            "https://raw.githubusercontent.com/fralfaro/ploomber-example/main/data/metrics.csv"
         )  # Replace 'titanic.csv' with your own data file
 
         return data
@@ -270,7 +270,7 @@ def cs_body():
     @st.cache_data()
     def load_predictions_data():
         data = pd.read_csv(
-            "data/y_predictions.csv"
+            "https://raw.githubusercontent.com/fralfaro/ploomber-example/main/data/y_predictions.csv"
         )  # Replace 'titanic.csv' with your own data file
 
         y_true = data["y_true"]
@@ -307,7 +307,7 @@ def cs_body():
     @st.cache_data()
     def load_importances_data():
         data = pd.read_csv(
-            "data/feature_importances.csv"
+            "https://raw.githubusercontent.com/fralfaro/ploomber-example/main/data/feature_importances.csv"
         )  # Replace 'titanic.csv' with your own data file
 
         return data
@@ -347,7 +347,7 @@ def cs_body():
             "Embarked",
         ]
         data = pd.read_csv(
-            "data/predictions.csv"
+            "https://raw.githubusercontent.com/fralfaro/ploomber-example/main/data/predictions.csv"
         )  # Replace 'titanic.csv' with your own data file
 
         return data[cols]

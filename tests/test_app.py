@@ -1,14 +1,14 @@
-# test_app.py
 import app
 
-def test_functions_called_at_least_once(mocker):
-    # Simula las funciones especificadas para rastrear las llamadas
-    mocker.patch('app.cs_sidebar')
-    mocker.patch('app.cs_body')
 
-    # Llama a la función principal
+def test_functions_called_at_least_once(mocker):
+    # Simulates the specified functions to track calls
+    mocker.patch("app.cs_sidebar")
+    mocker.patch("app.cs_body")
+
+    # Calls the main function
     app.main()
 
-    # Verifica si cs_sidebar y cs_body fueron llamadas al menos una vez
+    # Check if 'cs_sidebar' and 'cs_body' were called at least once
     assert app.cs_sidebar.called
     assert app.cs_body.called
